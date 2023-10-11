@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color:white;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+
+  text-align: center;
+  
+}
+
+caption{margin:20px;}
+​
+section{
+	background-color: lightgrey;
+}
+​
+th,td {
+  padding: 20px;
+}
+h1{
+	color:white;
+	text-align:center;
+	margin-bottom:60px;
+}
+tr{
+	border-bottom: solid gray 1px;
+}
+.no{
+	border-bottom: none;
+}
+.inactive{
+	color:red;
+}
+.active{
+	color:greenyellow;
+}
+.blue{
+	  background-color: #1b1b32;
+	  border:none;
+	  color:white;
+	   margin-bottom:20px;
+	  }
+.active1{
+	background: green;
+}
+.inactive1{
+	background-color: red;
+}
+button{
+	padding:9px 15px;
+	font-size:1rem;
+	font-weight:bold;
+	cursor:pointer;
+}
