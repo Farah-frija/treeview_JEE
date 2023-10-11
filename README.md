@@ -7,3 +7,4 @@ Treeview dynamique JEE/Js/html/css
 - J'ai prévu un nœud racine qui contient une chaîne vide pour gérer le cas où l'utilisateur n'a rien saisi dans la requête.
 - J'ai initialement tenté de masquer les éléments qui n'ont pas de relation avec le mot-clé de recherche en utilisant JavaScript, mais cela a conduit à des imperfections.
 - J'ai opté pour l'appel d'un servlet qui génère un nouveau code HTML à chaque recherche en utilisant la fonction `dfshelper` et prend comme parametre le mot saisi.
+![Capture d'écran 2023-10-12 002312](https://github.com/Farah-frija/treeview_JEE/assets/103389967/07510b98-1b78-4366-b81f-1d2ef413485e)
